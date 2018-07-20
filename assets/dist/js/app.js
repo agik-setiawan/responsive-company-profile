@@ -1,0 +1,1 @@
+$(function(){$("#openMenu").click(function(){$("#sideMenu").css({width:"300px"})}),$("#closeMenu").click(function(){$("#sideMenu").css({width:"0"})})});

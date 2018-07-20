@@ -1,0 +1,12 @@
+$(function(){
+    $("#openMenu").click(function(){
+        $("#sideMenu").css({
+            'width':'250px'
+        });
+    })
+    $("#closeMenu").click(function(){
+        $("#sideMenu").css({
+            'width':'0'
+        });
+    })
+})
