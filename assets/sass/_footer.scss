@@ -1,25 +1,44 @@
 @import 'global';
-.footer{
-    background: $background_banner;
-    width: 100%;
-}
-.col-footer{
-    margin: 20px;
-}
-#head-footer{
-    height: 100px;
-    background: rgb(194, 192, 192);
-    //border-bottom: 0.5px solid #616161;
-}
-#content-footer{
-    margin-top: 20px;
-    min-height: 400px;
-}
-#footer-footer{
-    height: 40px;
-    background: white;
-    //border-bottom: 0.5px solid #616161;
-}
-#footer-footer p{
-padding-top: 10px;
+footer{
+    background:$footer_background;
+        width: 100%;
+        margin-top: 50px;
+    .sm{
+        font-size: 18px;
+        color: #525151;
+    }
+    .col-footer{
+        margin: 20px;
+    }
+    #head-footer{
+        height: 100px;
+        background: rgb(194, 192, 192);
+        //border-bottom: 0.5px solid #616161;
+    }
+    #content-footer{
+        margin-top: 20px;
+        min-height: 400px;
+        h3{
+            color: $title;
+        }
+    }
+    #footer-footer{
+        height: 40px;
+        background: white;
+        p{
+            padding-top: 10px;
+        }
+        @media (max-width:400px) {
+            p{
+                text-align: center;
+                padding-top: 4px;
+            }
+        }
+        @media (max-width:600px) {
+            p{
+                text-align: center;
+                padding-top: 4px;
+            }
+        }
+    }
 }

@@ -1,3 +1,6 @@
+<?php
+require_once('setting.php');
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -48,15 +51,27 @@
 		<?php include('partials/media-sosial.php'); ?>
 
 <!--Banner Here-->
-<?php include('partials/banner.php'); ?>
-<?php include('partials/our_services.php'); ?>
+<div class="row">
+			<div class="container-fluid banner-page">
+				<h1 class="d-flex justify-content-center page-title">Blog</h1>
+			</div>
+		</div>
 
-<!--Our Services Here-->
+<!--page Here-->
+<div class="row">
+	<div class="col-md-12">
+<div class="page-content">
+	<div class="container">
+    <h3 class="d-flex justify-content-center title">Articles</h3>
+			<hr>
+        <?php include('blog-isi.php'); ?>
+</div>
+</div>
+</div>
 
 
 
-		<?php include('articles.php'); ?>
-		<?php include('partials/footer.php'); ?>
+<?php include('partials/footer.php'); ?>
 
 		
 

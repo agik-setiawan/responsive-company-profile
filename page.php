@@ -1,3 +1,6 @@
+<?php
+require_once('setting.php');
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -48,14 +51,11 @@
 		<?php include('partials/media-sosial.php'); ?>
 
 <!--Banner Here-->
-<?php include('partials/banner.php'); ?>
-<?php include('partials/our_services.php'); ?>
+<?php include('partials/banner-page.php'); ?>
 
-<!--Our Services Here-->
-
+<!--Page Here-->
 
 
-		<?php include('articles.php'); ?>
 		<?php include('partials/footer.php'); ?>
 
 		

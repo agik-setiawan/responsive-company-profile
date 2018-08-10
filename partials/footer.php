@@ -38,16 +38,36 @@
             </div>
             <div class="form-group">
             <button class="btn btn-default">Submit</button>
-            </textarea>
             </div>
             </div>
         </div>
     </div>
 
+    <div id="media-sosial-footer">
+<div class="row">
+    <div class="d-block mx-auto">
+    <a href="#"><i class="fab fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-linkedin"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-whatsapp"></i></a>
+    </div>
+</div>
+</div>
+
     <div class="row" id="footer-footer">
+    <div class="col-md-12">
         <div class="d-block container-fluid">
-            <div class="container-fluid">
+            <div class="container-fluid-">
+            <div class="row">
+            <div class="col-md-6">
+            <p align="left">copyright &copy; 2018 <a href="#">mediakreasi</a></p>
+            </div>
+            <div class="col-md-6">
             <p align="right">design by <a href="#">mediakreasi.com</a></p>
+            </div>
+            </div>
+            </div>
             </div>
         </div>
 

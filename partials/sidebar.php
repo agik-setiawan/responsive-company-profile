@@ -17,7 +17,7 @@
 <div class="row">
 <div class="col-md-12">
 <a href="#">Home</a>
-<a href="#">Contact</a>
+<a href="contact.php">Contact</a>
 <a href="#">About Us</a>
 <a href="#">Services</a>
 <a href="#">Blog</a>

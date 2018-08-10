@@ -3,16 +3,43 @@
     position: fixed;
     z-index: 2;
     left: 0;
-    //background: #cec7c7;
     height: 250px;
     top: 30vh;
+    a{
+        font-size: 30px;
+        color: black;
+        opacity: 0.3;
+    }
+    a:hover{
+        opacity: 0.5;
+    }
+    @media(max-width:600px){
+            display: none;
+    }
+    @media(max-width:400px){
+        display: none;
+}
     
 }
-#media-sosial a{
+
+
+
+//footer media sosial
+#media-sosial-footer{
+display: none;
+}
+#media-sosial-footer a{
     font-size: 30px;
     color: black;
     opacity: 0.3;
 }
-#media-sosial a:hover{
+#media-sosial-footer a:hover{
     opacity: 0.5;
+}
+
+@media(max-width:$w-600){
+    #media-sosial-footer{
+        display: block;
+        background: #efefef !important;
+    }
 }

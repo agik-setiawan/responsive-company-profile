@@ -1,0 +1,68 @@
+#comments{
+    li{
+        list-style: none;
+    }
+    .comment-reply-title{
+        font-size: 22px;
+        color: #616161;
+    }
+    .reply{
+        margin-bottom: 20px;
+        .comment-reply-link{
+            background: #212121;
+            color: white;
+            cursor: pointer;
+            text-decoration: none;
+            padding: 3px;
+        }
+    }
+    .children{
+        margin-top: 15px;
+        li{
+            padding: 10px;
+            background: #EEEEEE;
+        }
+    }
+
+    .title_list{
+        font-size: 22px;
+        color: #616161;
+    }
+
+    form{
+        p{
+            color: #616161;
+            font-size: 16px;
+            label{
+                min-width: 100px;
+            }
+            input[type=text]{
+                font-size: 16px;
+            }
+            textarea{
+                //width: 35%;
+                height: 120px;
+            }
+            @media (max-width:400px) {
+                input[type=text]{
+                    max-width: 100%;
+                }
+                textarea{
+                    //width: 35%;
+                    height: 120px;
+                    max-width: 100%;
+                } 
+            }
+        }
+        
+        #submit{
+            background: #212121;
+            color: white;
+            cursor: pointer;
+            padding: 10px;
+            font-weight: bold;
+            border: none;
+        }
+        
+    }
+}
